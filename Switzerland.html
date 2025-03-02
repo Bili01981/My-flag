@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .flag {
+        width: 800px;
+        height: 800px;
+        background-color: red;
+        position: relative;
+        border: .5px solid black;
+    }
+    .flag >div {
+        width: 480px;
+        height: 120px;
+        background-color: white;
+        position: absolute;
+        
+        top: 350px;
+        left: 180px;
+        
+    }
+    .flag >div >div {
+        width: 120px;
+        height: 480px;
+        background-color: white;
+        position: absolute;
+        top: -180px;
+        left: 180px;
+    }
+
+</style>
+<body>
+    <div class="flag">
+        <div class="horizontal">
+            <div class="vertical">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
